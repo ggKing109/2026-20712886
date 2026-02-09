@@ -1,5 +1,5 @@
 secret.txt
-# Build outputs (WS3)
+# WS3 build outputs
 *.obj
 *.exe
 *.dll
@@ -7,11 +7,7 @@ secret.txt
 *.pdb
 *.ilk
 *.exp
-*.pch
 
-# Folders created by builds
+# build/release folders
 WS3/release/
-WS3/*.obj
-WS3/*.exe
-WS3/*.dll
-WS3/*.lib
+WS3/build/
