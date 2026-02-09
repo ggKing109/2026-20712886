@@ -1,0 +1,5 @@
+git init: create a new repository
+git log: show commit history
+git show: show details of a commit
+git checkout: switch branch or view an old commit
+git reset: move HEAD/branch pointer (undo add/commit depending on options)
