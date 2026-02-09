@@ -1,1 +1,17 @@
 secret.txt
+# Build outputs (WS3)
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.pch
+
+# Folders created by builds
+WS3/release/
+WS3/*.obj
+WS3/*.exe
+WS3/*.dll
+WS3/*.lib
