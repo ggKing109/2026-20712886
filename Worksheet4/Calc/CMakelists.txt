@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(calc)
+
+# 静态库
+add_library(adder_static STATIC adder.cpp)
+set_target_properties(adder_static PROPERTIES OUTPUT_NAME adder)
+
+# 动态库
+add_library(adder_shared SHARED adder.cpp)
+set_target_properties(adder_shared PROPERTIES OUTPUT_NAME adder)
+
+# 可执行文件
+add_executable(calc calc.cpp)
+
+# 默认先链接静态库（静态 build 用）
+target_link_libraries(calc adder_static)
