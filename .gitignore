@@ -11,3 +11,33 @@ secret.txt
 # build/release folders
 WS3/release/
 WS3/build/
+
+# --- CMake build outputs ---
+**/build*/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/*.cmake
+**/Makefile
+
+# --- Visual Studio / MSBuild outputs ---
+.vs/
+**/*.sln
+**/*.vcxproj*
+**/*.filters
+**/*.user
+**/x64/
+**/Release/
+**/Debug/
+**/*.tlog
+**/*.obj
+**/*.pdb
+**/*.ilk
+**/*.exp
+**/*.lib
+**/*.dll
+**/*.exe
+
+
+!WS3_release/**/*
+!WS4_release/**/*
