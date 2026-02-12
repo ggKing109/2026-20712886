@@ -41,3 +41,9 @@ WS3/build/
 
 !WS3_release/**/*
 !WS4_release/**/*
+
+# WS5 ignore source
+WS5/*.cpp
+WS5/*.h
+WS5/Doxyfile
+
