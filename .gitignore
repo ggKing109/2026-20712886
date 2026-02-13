@@ -47,3 +47,5 @@ WS5/*.cpp
 WS5/*.h
 WS5/Doxyfile
 
+!WS5/WS5_Calc_Installer.exe
+
