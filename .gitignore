@@ -49,3 +49,9 @@ WS5/Doxyfile
 
 !WS5/WS5_Calc_Installer.exe
 
+# ignore other weeks / archives / installers
+WS4_release/
+WS5/
+EEEE2076-master/
+*.zip
+*.exe
